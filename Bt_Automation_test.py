@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-#Opeaning browser and maximize
-driver=webdriver.Chrome()
+#Opeaning browser and maximize 
+driver=webdriver.Chrome()    #Chrome driver should be present in Python script folder
 driver.get("https://www.bt.com/")
 driver.implicitly_wait(0.10)
 driver.maximize_window()
