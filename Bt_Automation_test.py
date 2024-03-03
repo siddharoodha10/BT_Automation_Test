@@ -53,6 +53,5 @@ for i in range(len(plans)):
     if expected_plan in actula_plan_text:
         break
 assert expected_plan in actula_plan_text
-print("Siddharoodha practice")
 #Close browser
 driver.close()
